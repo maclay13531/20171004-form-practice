@@ -30,6 +30,11 @@ body{
 	margin-left: 10%;
 	font-size: 30px;
 }
+.error{
+	display: none;
+	margin-top: 20px;
+	color: red;
+}
 
 .fullName, .email, .textarea{
 	margin-top: 30px;

@@ -3,19 +3,22 @@
 <head>
 	<title></title>
 
-	<link rel="stylesheet" type="text/css" href="reset.css">
+	<!-- <link rel="stylesheet" type="text/css" href="reset.css"> -->
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	<link href='https://fonts.googleapis.com/css?family=Spicy+Rice' rel='stylesheet' type='text/css'>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="scripts.js"></script>
 
 </head>
 <body>
-	<div class="wrapper">
+	<form class="wrapper">
 		<div class="legend">
 			<span class="number">1</span> 
 			<div>Candidate Info</div>
 		</div>
-
+		<div class="fullName-error error">Can not be empty</div>
 		<input type="text" name="fullName" class="fullName" placeholder="Your Name*">
+		<div class="email-error error">Can not be empty</div>
 		<input type="email" name="email" class="email" placeholder="Your Email*">
 		<textarea name="about" class="textarea" placeholder="About yourself"></textarea>
 		<label>Interests:</label>
@@ -43,6 +46,6 @@
 			<div>Additional Info</div>
 		</div>
 		<input type="submit" value="APPLY" class="apply">
-	</div>
+	</form>
 </body>
 </html>
